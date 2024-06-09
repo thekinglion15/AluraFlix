@@ -1,0 +1,96 @@
+.nvmain {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    background-color: #283f58;
+}
+
+.nvmain h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.nvmain p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-bottom: 3.5rem;
+}
+
+.nvform {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nvform h3 {
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nvform-group {
+    margin-bottom: 2rem;
+}
+
+.nvform-group label {
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.nvform-group input,
+.nvform-group select,
+.nvform-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #1f2b38;
+    border: 3px solid #446585;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.nvform-group select {
+    width: 104%;
+}
+
+.nvform-group textarea {
+    resize: none;
+}
+
+.nvform-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nvsave-button, .nvclear-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.nvsave-button:hover, .nvclear-button:hover {
+    opacity: 0.8;
+}
+
+.nvsave-button {
+    background-color: transparent;
+    border: 2px solid #257be5;
+    color: #fff;
+}
+
+.nvclear-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
