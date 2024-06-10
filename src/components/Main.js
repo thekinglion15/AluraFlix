@@ -31,12 +31,22 @@ const Main = () => {
         });
     };
 
+    const handleDeleteVideo = (videoId) => {
+        setVideos(prevVideos => {
+            const updatedVideos = prevVideos.filter(video => video.id !== videoId);
+            setFrontend(updatedVideos.filter(video => video.category === "Frontend"));
+            setBackend(updatedVideos.filter(video => video.category === "Backend"));
+            setInnovaGestion(updatedVideos.filter(video => video.category === "Innovacion y Gestion"));
+            return updatedVideos;
+        });
+    };
+
     return (
         <main className='main-content'>
             <Banner />
-            <Category categoryName="Frontend" color="#007bff" videos={frontend} onUpdate={handleUpdateVideo} />
-            <Category categoryName="Backend" color="#28a745" videos={backend} onUpdate={handleUpdateVideo} />
-            <Category categoryName="Innovación y Gestión" color="#ffba05" videos={innovaGestion} onUpdate={handleUpdateVideo} />
+            <Category categoryName="Frontend" color="#007bff" videos={frontend} onUpdate={handleUpdateVideo} onDelete={handleDeleteVideo} />
+            <Category categoryName="Backend" color="#28a745" videos={backend} onUpdate={handleUpdateVideo} onDelete={handleDeleteVideo} />
+            <Category categoryName="Innovación y Gestión" color="#ffba05" videos={innovaGestion} onUpdate={handleUpdateVideo} onDelete={handleDeleteVideo} />
         </main>
     );
 };
