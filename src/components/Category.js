@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
 import Modal from './Modal';
+import swal from 'sweetalert';
 import '../App.css';
 
-const Category = ({ categoryName, color, videos }) => {
+const Category = ({ categoryName, color, videos, onUpdate, onDelete }) => {
     const [showModal, setShowModal] = useState(false);
     const [selectedVideo, setSelectedVideo] = useState(null);
 
@@ -19,7 +20,17 @@ const Category = ({ categoryName, color, videos }) => {
     }
 
     const handleSave = (updatedVideo) => {
-        console.log('Video actualizado:', updatedVideo);
+        onUpdate(updatedVideo);
+    }
+
+    const handleDelete = (videoId) => {
+        swal({
+            title: "¿Estás seguro de eliminar el video?",
+            text: "Una vez eliminado, no podrás recuperar este video.",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
     }
 
     return (
@@ -30,7 +41,9 @@ const Category = ({ categoryName, color, videos }) => {
             <div className='videos'>
                 {videos.map((video, index) => (
                     <div className='card' key={index} style={{ borderColor: color }}>
-                        <img src={video.thumbnail} alt={video.title} />
+                        <a href={video.video} target='_blank' rel='noopener noreferrer'>
+                            <img src={video.image} alt={video.title} />
+                        </a>
                         <div className='card-buttons' style={{ borderTopColor: color }}>
                             <button className='edit-button' onClick={() => handleEdit(video)}>
                                 <FontAwesomeIcon icon={faEdit} /> Editar
