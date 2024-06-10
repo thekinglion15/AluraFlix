@@ -55,7 +55,6 @@ const Modal = ({ show, onClose, videoData, onSave }) => {
         })
         .then(response => response.json())
         .then(data => {
-            console.log("Video actualizado:", data);
             onSave(data);
             swal({
                 title: "Video actualizado",
