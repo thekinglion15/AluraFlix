@@ -114,7 +114,7 @@ nav {
 
 .video-category {
   display: inline-block;
-  background-color: #ff6347;
+  /*background-color: #ff6347;*/
   padding: 0.5rem 1rem;
   color: #fff;
   font-size: 1.5rem;
@@ -184,7 +184,7 @@ nav {
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 .card img {
@@ -340,6 +340,13 @@ nav {
   resize: none;
 }
 
+.form-group .error-message {
+  text-transform: initial;
+  color: #ff0000;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
 .modal-footer {
   display: flex;
   justify-content: space-between;
@@ -363,6 +370,16 @@ nav {
   background-color: transparent;
   border: 2px solid #257be5;
   color: #257be5;
+}
+
+.save-button:disabled {
+  background-color: #257be5;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.save-button:enabled {
+  opacity: 1;
 }
 
 .clear-button {
