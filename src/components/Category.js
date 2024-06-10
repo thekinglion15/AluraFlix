@@ -31,7 +31,25 @@ const Category = ({ categoryName, color, videos, onUpdate, onDelete }) => {
             buttons: true,
             dangerMode: true,
         })
-    }
+        .then((willDetele) => {
+            if(willDetele) {
+                fetch(`http://localhost:5000/videos/${videoId}`, {
+                    method: 'DELETE',
+                })
+                .then(() => {
+                    onDelete(videoId);
+                    swal({
+                        title: "Video eliminado",
+                        text: "El video ha sido eliminado exitosamente.",
+                        icon: "success",
+                        button: false,
+                        timer: 3000
+                    });
+                })
+                .catch((error) => console.error("Error deleting video:", error));
+            }
+        });
+    };
 
     return (
         <section className='category'>
@@ -48,7 +66,7 @@ const Category = ({ categoryName, color, videos, onUpdate, onDelete }) => {
                             <button className='edit-button' onClick={() => handleEdit(video)}>
                                 <FontAwesomeIcon icon={faEdit} /> Editar
                             </button>
-                            <button className='delete-button'>
+                            <button className='delete-button' onClick={() => handleDelete(video.id)}>
                                 <FontAwesomeIcon icon={faTrash} /> Borrar
                             </button>
                         </div>
