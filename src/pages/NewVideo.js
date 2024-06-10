@@ -25,6 +25,17 @@ const NewVideo = () => {
         setIsFormValid(Object.keys(errors).length === 0);
     };
 
+    const handleVideoBlur = () => {
+        if (/^https:\/\/www\.youtube\.com\/watch\?v=/.test(video)) {
+            let videoId = video.split('v=')[1];
+            const ampersand = videoId.indexOf('&');
+            if (ampersand !== -1) {
+                videoId = videoId.substring(0, ampersand);
+            }
+            setImage(`https://img.youtube.com/vi/${videoId}/0.jpg`);
+        }
+    };
+
     const handleSave = () => {
         validateForm();
         if(!isFormValid) return;
@@ -44,7 +55,6 @@ const NewVideo = () => {
         })
         .then(response => response.json())
         .then(data => {
-            console.log("Nuevo video guardado:", data);
             handleClear();
             swal({
                 title: "Video guardado",
@@ -89,14 +99,15 @@ const NewVideo = () => {
                     {errors.category && <p className="error-message">{errors.category}</p>}
                 </div>
                 <div className="nvform-group">
-                    <label>Imagen</label>
-                    <input type="text" value={image} onChange={(e) => { setImage(e.target.value); validateForm(); }} />
-                    {errors.image && <p className="error-message">{errors.image}</p>}
+                    <label>Video</label>
+                    <input type="text" value={video} onChange={(e) => { setVideo(e.target.value); validateForm(); }} onBlur={handleVideoBlur} />
+                    {errors.video && <p className="error-message">{errors.video}</p>}
                 </div>
                 <div className="nvform-group">
-                    <label>Video</label>
-                    <input type="text" value={video} onChange={(e) => { setVideo(e.target.value); validateForm(); }} />
-                    {errors.video && <p className="error-message">{errors.video}</p>}
+                    <label>Imagen</label>
+                    <input type="text" value={image} onChange={(e) => { setImage(e.target.value); validateForm(); }} />
+                    <p>Se toma la miniatura del video desde el enlace de YouTube proporcionado. Puede colocar otra ruta de imagen si lo desea.</p>
+                    {errors.image && <p className="error-message">{errors.image}</p>}
                 </div>
                 <div className="nvform-group">
                     <label>Descripción</label>
