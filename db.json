@@ -1,116 +1,116 @@
 {
   "videos": [
     {
-      "id": "1",
-      "title": "Video de Frontend",
+      "id": "0d0b",
+      "title": "¿Cómo un desarrollador Front End utiliza el Figma?",
       "category": "Frontend",
-      "image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
-      "video": "https://www.youtube.com/watch?v=abc123",
-      "description": "Descripción del video de Frontend."
+      "image": "https://img.youtube.com/vi/UuAX5azcvDQ/0.jpg",
+      "video": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "description": "¿Cómo un desarrollador Front End utiliza el Figma? \n\nEn este Alura+, Genesys, instructora de Alura Latam, nos responde esa pregunta y nos muestra esta conocida herramienta."
     },
     {
-      "id": "2",
-      "title": "Video de Backend",
+      "id": "1fd0",
+      "title": "Bucles y Bucles Anidados en Javascript",
       "category": "Backend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Backend."
+      "image": "https://img.youtube.com/vi/FEdqGdtZuwc/0.jpg",
+      "video": "https://www.youtube.com/watch?v=FEdqGdtZuwc",
+      "description": "En este video, la instructora Génesys Rondón nos explica como aplicar Bucles utilizando como ejemplo un calendario."
     },
     {
-      "id": "3",
-      "title": "Video de Innovacion y Gestion",
-      "category": "Innovacion y Gestion",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Backend."
-    },
-    {
-      "id": "fdda",
-      "title": "Video de Frontend1",
+      "id": "d7bc",
+      "title": "Box Model y Box sizing",
       "category": "Frontend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Frontend1."
+      "image": "https://img.youtube.com/vi/ts9qfCKamKg/0.jpg",
+      "video": "https://www.youtube.com/watch?v=ts9qfCKamKg",
+      "description": "En este Alura+ nuestra instructora front-end, Jeanmarie Quijada, nos ayudará a entender que es Box Model, uno de los conceptos fundamentales para la construcción correcta de layouts de páginas web."
     },
     {
-      "id": "7637",
-      "title": "Video de Frontend3",
-      "category": "Backend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Frontend3."
-    },
-    {
-      "id": "2c5a",
-      "title": "Video de Frontend3",
-      "category": "Innovacion y Gestion",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Frontend3."
-    },
-    {
-      "id": "8045",
-      "title": "qe",
+      "id": "7b48",
+      "title": "Animando un texto un proyecto en HTML CSS",
       "category": "Frontend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "asf"
+      "image": "https://img.youtube.com/vi/j71g5TiMA-M/0.jpg",
+      "video": "https://www.youtube.com/watch?v=j71g5TiMA-M",
+      "description": "Animando un texto un proyecto en HTML CSS"
     },
     {
-      "id": "7637",
-      "title": "Video de Frontend3",
-      "category": "Backend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "Descripción del video de Frontend3."
-    },
-    {
-      "id": "44d6",
-      "title": "Hola",
-      "category": "Backend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "asd"
-    },
-    {
-      "id": "152b",
-      "title": "adgf",
-      "category": "Backend",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "dgs"
-    },
-    {
-      "id": "1dd6",
-      "title": "ddw",
-      "category": "Innovacion y Gestion",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "awdad"
-    },
-    {
-      "id": "282b",
-      "title": "bsb",
-      "category": "Innovacion y Gestion",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=def456",
-      "description": "sdb"
-    },
-    {
-      "id": "2eb0",
-      "title": "Prueba de imagen",
+      "id": "1860",
+      "title": "Como aplicar Dark Mode en tu proyecto",
       "category": "Frontend",
-      "image": "https://i3.ytimg.com/vi/noIY-U2clpw/hqdefault.jpg",
-      "video": "https://www.youtube.com/watch?v=noIY-U2clpw&list=PLSbDMtNBmYTt4i0w8emjQlBFZyLs7GALx&index=3&pp=iAQB",
-      "description": "Esto es una prueba de imagen"
+      "image": "https://img.youtube.com/vi/MxlxFhzGRV8/0.jpg",
+      "video": "https://www.youtube.com/watch?v=MxlxFhzGRV8",
+      "description": "La funcionalidad conocida como Dark Mode está cada vez más popular, sendo encontrada en diversos tipos de aplicaciones, redes sociales, plataformas educacionales o de entretenimiento. En este Alura+, nuestro instructor Harland Lohora, nos enseña a como realizar estas aplicaciones en una página web."
     },
     {
-      "id": "9c21",
-      "title": "Detroit",
+      "id": "b669",
+      "title": "7 Soft Skills más deseadas por las empresas",
       "category": "Innovacion y Gestion",
-      "image": "https://img.youtube.com/vi/5qk8WKG-_wE/0.jpg",
-      "video": "https://www.youtube.com/watch?v=5qk8WKG-_wE",
-      "description": "IlloJuan"
+      "image": "https://img.youtube.com/vi/YhR7Zp8NUzE/0.jpg",
+      "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "description": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral."
+    },
+    {
+      "id": "bdef",
+      "title": "Como desarrollar tu Marca Persona",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/LAK-RduBJUs/0.jpg",
+      "video": "https://www.youtube.com/watch?v=LAK-RduBJUs",
+      "description": "En este video vamos a ayudarte a entender qué es y cuál es la importancia de tener una Marca Personal bien desarrollada."
+    },
+    {
+      "id": "a0ce",
+      "title": "Cuándo usar let, var y const?",
+      "category": "Backend",
+      "image": "https://img.youtube.com/vi/PztCEdIJITY/0.jpg",
+      "video": "https://www.youtube.com/watch?v=PztCEdIJITY",
+      "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+    },
+    {
+      "id": "60e0",
+      "title": "Empresas que aprenden",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/mwNfWRsDDWE/0.jpg",
+      "video": "https://www.youtube.com/watch?v=mwNfWRsDDWE",
+      "description": "El aprendizaje organizacional promueve tanto la adaptación al cambio como el crecimiento de la empresa. Pero, ¿tienes alguna idea de cómo hacerse esto? En este Alura+, Priscila Stuani habla sobre el papel de la organización en el proceso de aprendizaje de sus profesionales."
+    },
+    {
+      "id": "4874",
+      "title": "¿Sabes cómo organizar tu rutina de estudio?",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/3mDnrL8YVaA/0.jpg",
+      "video": "https://www.youtube.com/watch?v=3mDnrL8YVaA",
+      "description": "En este video vamos a ver la importancia de tener un horario de estudio que se ajuste a la disponibilidad real de tiempo de cada estudiante, así como la relevancia de la disciplina en seguir un plan de estudio dentro de los procesos de aprendizaje."
+    },
+    {
+      "id": "ce69",
+      "title": "Cómo ser más productivo",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/TF_Rde1kbw8/0.jpg",
+      "video": "https://www.youtube.com/watch?v=TF_Rde1kbw8",
+      "description": "En este video, Gabriela Aguiar, nos explicará sobre la productividad y exploraremos técnicas probadas y estrategias innovadoras para impulsar tu eficiencia."
+    },
+    {
+      "id": "b29c",
+      "title": "7 Soft Skills más demandadas de 2024",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/_-9grhDhxiU/0.jpg",
+      "video": "https://www.youtube.com/watch?v=_-9grhDhxiU",
+      "description": "Siempre estamos hablando aquí en el canal de Alura Latam sobre la importancia de las Soft Skills, y en este video vamos a listar las 7 habilidades blandas más demandadas por las empresas en este 2024."
+    },
+    {
+      "id": "d638",
+      "title": "Técnicas para mejorar tu aprendizaje",
+      "category": "Innovacion y Gestion",
+      "image": "https://img.youtube.com/vi/KSyqCUAr2CU/0.jpg",
+      "video": "https://www.youtube.com/watch?v=KSyqCUAr2CU",
+      "description": "En este video te llevaremos por las mejores técnicas para mejorar tu aprendizaje y retención. Ya sea que estés estudiando para un examen, aprendiendo una nueva habilidad, o simplemente buscando maneras de optimizar tu proceso de aprendizaje, este video te proporcionará estrategias prácticas y basadas en la ciencia para alcanzar tus objetivos."
+    },
+    {
+      "id": "fc1b",
+      "title": "Descomplicando Base de Datos",
+      "category": "Backend",
+      "image": "https://img.youtube.com/vi/G1cDRqKuxpg/0.jpg",
+      "video": "https://www.youtube.com/watch?v=G1cDRqKuxpg",
+      "description": "¿Qué es base de datos? Neste vídeo Maria Fernanda y Evelyn Reis te guiarán en el camino que debes seguir.\nHablarán acerca de los conceptos relacionados a de Base de Datos y todo lo que debe saber sobre el tema."
     }
   ]
 }
